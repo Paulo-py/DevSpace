@@ -5,7 +5,7 @@
 
 print("\n******************* Calculadora em Python *******************")
 
-opcao = input("Escolha a operação desejada: \n 1 - Adição \n 2- Subtração \n 3 - Multiplicação \n 4 - Divisão")
+opcao = input("1 - Adição \n 2- Subtração \n 3 - Multiplicação \n 4 - Divisão \n Escolha a operação desejada: ")
 
 def adicao():
 	numero1 = input("Digite o primeiro número: ")
