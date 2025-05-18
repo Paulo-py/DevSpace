@@ -5,29 +5,29 @@
 
 print("\n******************* Calculadora em Python *******************")
 
-opcao = input("1 - Adição \n 2- Subtração \n 3 - Multiplicação \n 4 - Divisão \n Escolha a operação desejada: ")
+opcao = int(input(" 1 - Adição \n 2- Subtração \n 3 - Multiplicação \n 4 - Divisão \n Escolha a operação desejada: "))
 
 def adicao():
-	numero1 = input("Digite o primeiro número: ")
-	numero2 = input("Digite o segundo numero: ")
+	numero1 = int(input("Digite o primeiro número: "))
+	numero2 = int(input("Digite o segundo numero: "))
 	soma = numero1 + numero2
 	print(f"O resultado da soma é {soma}")
 
 def subtracao():
-	numero1 = input("Digite o primeiro número: ")
-	numero2 = input("Digite o segundo numero: ")
+	numero1 = int(input("Digite o primeiro número: "))
+	numero2 = int(input("Digite o segundo numero: "))
 	subtracao = numero1 - numero2
 	print(f"O resultado da soma é {subtracao}")
 
 def multiplicacao():
-	numero1 = input("Digite o primeiro número: ")
-	numero2 = input("Digite o segundo numero: ")
+	numero1 = int(input("Digite o primeiro número: "))
+	numero2 = int(input("Digite o segundo numero: "))
 	multiplicacao = numero1 * numero2
 	print(f"O resultado da soma é {multiplicacao}")
 
 def divisao():
-	numero1 = input("Digite o primeiro número: ")
-	numero2 = input("Digite o segundo numero: ")
+	numero1 = int(input("Digite o primeiro número: "))
+	numero2 = int(input("Digite o segundo numero: "))
 	soma = numero1 + numero2
 	print(f"O resultado da soma é {soma}")
 
